@@ -1,0 +1,18 @@
+.wp-block-media-text .gfo-media-caption {
+	grid-column: 1;
+}
+
+.wp-block-media-text.has-media-on-the-right .gfo-media-caption {
+	grid-column: 2;
+}
+
+@media (max-width: 600px) {
+	.wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right .gfo-media-caption {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right .wp-block-media-text__content {
+		grid-row: 3;
+	}
+}
