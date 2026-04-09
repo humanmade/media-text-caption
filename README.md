@@ -36,16 +36,7 @@ Watch mode:
 npm run start -w media-text-caption
 ```
 
-## How it works
 
-Two block attributes are registered on `core/media-text`:
-
-| Attribute | Type | Description |
-|---|---|---|
-| `showMediaCaption` | `boolean` | Whether the caption is visible |
-| `mediaCaption` | `string` | The caption text |
-
-On the frontend, a `<figcaption class="wp-element-caption gfo-media-caption">` is injected after the `<figure>` element inside the block markup.
 
 ## License
 
